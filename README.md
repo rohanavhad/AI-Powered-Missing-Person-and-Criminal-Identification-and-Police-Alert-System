@@ -34,18 +34,27 @@ This project is a **real-time facial recognition and alert system** that identif
 ![ai1](https://github.com/user-attachments/assets/095d9220-554d-409d-a4bc-53c9397c2a9d)
 
 2️⃣ **New records** (missing persons/criminals) are added with images. 
+
 ![ai2](https://github.com/user-attachments/assets/44d164ab-0c13-46e5-b1f9-047668bec2c0)
 
 3️⃣ **Live video feeds** are received from multiple locations.  
+
+
 ![ai3](https://github.com/user-attachments/assets/e8c7761b-26b2-4d79-936b-495ba10cb02e)
 
 4️⃣ **Face recognition** checks for matches against the database.  
+
 5️⃣ If a match is found, the system:
    - Logs the detection event in the database  
    - **Sends an SMS alert** to the location-based contact  
    - Displays the detection on the dashboard  
 6️⃣ Admin can **view logs, manage records, and monitor live feeds**.
-![ai4](https://github.com/user-attachments/assets/2b94a1f7-5932-4ad8-8dbc-b8f74610493a) ![ai5](https://github.com/user-attachments/assets/aff5a715-1a8d-4b42-aa71-978bf2631b64)
+
+**Known Records **
+![ai4](https://github.com/user-attachments/assets/2b94a1f7-5932-4ad8-8dbc-b8f74610493a) 
+
+**Log history**
+![ai5](https://github.com/user-attachments/assets/aff5a715-1a8d-4b42-aa71-978bf2631b64)
 
 
 
