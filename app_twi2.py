@@ -12,15 +12,15 @@ app = Flask(__name__, template_folder='templates')
 app.secret_key = 'your_secret_key'
 
 # Twilio Configuration
-TWILIO_ACCOUNT_SID = 'ACe36aee92147590ff7fb2f25184d0c159'
-TWILIO_AUTH_TOKEN = '4a0fa17fe224856466f11a8f58146c72'
-TWILIO_PHONE_NUMBER = '+12722323385'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_PHONE_NUMBER = ''
 
 # Location-specific contact numbers
 LOCATION_CONTACTS = {
-    'location1': '+919689113491',
-    'location2': '+919689113491',
-    'location3': '+919689113491'
+    'location1': '+9100000113491',
+    'location2': '+910000113491',
+    'location3': '+910000113491'
 }
 
 # Notification settings
@@ -278,4 +278,4 @@ def upload_frame(location):
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='192.168.162.208', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
